@@ -1,0 +1,45 @@
+ <!DOCTYPE html>
+ <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+    <title>API</title>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="loginbox">
+        <form class="search-form">
+            <h1>Enter city here</h1>
+            <p>City</p>
+            <input type="text" name="" placeholder="Enter city" id="city"/>
+            <input type="submit" name="" value="Check weather"/>
+            <p class="message">Interested in a city outside of Germany?<a href="#"> Not Germany</a></p>            
+        </form>
+        
+        
+        <form class="set-country">
+            <h1> Enter country here</h1>
+            <p>Country</p>
+            <input type="text" name="" placeholder="Enter country" id="country"/>
+            <input type="submit" name="" value="Set country"/>
+            <p class="message">Living in Germany? <a href="#"> Search-form</a></p>
+        </form>
+    </div>
+
+    <div class="weather-container">
+        <img class="icon">
+        <p class="weather"></p>
+        <p class="temp"></p>
+    </div>
+
+
+</body>
+ </html>
